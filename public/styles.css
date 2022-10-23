@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    /* background: blue; */
+    height: 100vh; 
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid rgb(68, 66, 66);
+    display: "inline-block";
+    margin: 0px;
+    padding: 0px;
+    display: "inline-block";
+}
